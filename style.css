@@ -1,0 +1,276 @@
+body {
+    /* background-color: #726967; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    /* background-image: url(image/golden.jpeg); */
+    background-color: black;
+    color: white;
+    background-size: cover;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+header input {
+    background-color: rgb(18, 13, 0);
+    border: 1px solid rgb(62, 53, 0);
+    border-radius: 20px;
+    color: white;
+    height: 30px;
+    position: absolute;
+    right: 50px;
+    width: 200px;
+    padding-left: 10px;
+    transition: transform 0.3s ease;    
+}
+
+header input:hover {
+    transform: scale(1.1);
+}
+
+header img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+header h1 {
+    font-family:  Verdana, Geneva, Tahoma, sans-serif   ;
+    color: rgb(246, 190, 48);
+    font-weight: bold;
+    text-shadow: 0 0 10px;
+     position: absolute;
+    left: 10px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 21px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+nav a:hover {
+    background-color: black;
+    color: rgb(250, 179, 0);
+    transform: scale(1.1);
+
+
+}
+
+#about .da1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    max-width: 1250px;
+    line-height: 1.8rem;
+
+}
+
+video {
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid goldenrod;
+    width: 450px;
+
+}
+
+.boxs {
+    display: flex;
+    color: white;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1,
+.box2 {
+    background-color: black;
+    border-radius: 15px;
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid goldenrod;
+
+}
+
+.boxs h2 {
+    color: goldenrod;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.a1 img {
+    border-radius: 15px;
+    transition: transform 0.3s ease
+}
+
+.a1:hover img {
+    transform: scale(1.1);
+}
+
+#shop .products {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.prod img:hover {
+    border: 3px solid goldenrod;
+    box-shadow: 0 0 5px;
+
+}
+
+
+
+.all {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#contact .cont {
+    position: absolute;
+    left: 20px;
+}
+
+.log {
+    background-color: rgb(7, 7, 7);
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid goldenrod;
+}
+
+.log1,
+.log2,
+.log3,
+.log4 {
+    margin: 20px;
+    border-radius: 45px;
+}
+
+.log input {
+    width: 250px;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: black;
+    transition: transform 0.3s ease;
+
+}
+
+.log input:hover {
+    transform: scale(1.1);
+}
+
+.log label {
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.log3 textarea {
+    background-color: black;
+    color: gray;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 250px;
+    transition: transform 0.3s ease;
+
+
+}
+
+.log textarea:hover {
+    transform: scale(1.1);
+
+}
+
+.log4 button {
+    background-color: goldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    border: 1px solid gray;
+    transition: transform 0.3s ease;
+}
+
+.log4 button:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: black;
+    color: gray;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    padding-top: 5px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid goldenrod;
+
+}
+
+footer h2 {
+    color: goldenrod;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 0 3px;
+}
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+footer img {
+    background-color: gray;
+    border-radius: 50%;
+    margin: 10px;
+    transition: transform 0.3s ease;
+
+}
+
+footer div {
+    display: flex;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+    background-color: #726967;
+}
